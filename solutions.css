@@ -153,53 +153,95 @@
 /*Esercizio 12*/
 
 .ex-12-top-white{
-    animation: topleft 4s linear infinite;
+    animation: topleft 2s linear forwards;
 }
 
 @keyframes topleft{
 
 
     0%{
-        left: 0;
-    }
-    25%{
-        left: 15%;
-    }
-    50%{
-        left: 30%;
-    }
-    75%{
-        left: 45%;
-    }
-    100%{
-        left: 60%;
+        left: 10%;
     }
 
+    100%{
+        left: calc(100% - 60px);
+    }
 
 }
 
 .ex-12-bottom-white{
-    animation: botleft 4s linear infinite;
+    animation: botleft 2s linear forwards;
 }
 
 @keyframes botleft{
-
-
+    
     0%{
-        right: 0;
+        right: 20%;
     }
-    25%{
-        right: 15%;
+
+    100%{
+        right: calc(100% - 60px);
     }
-    50%{
-        right: 30%;
+
+
+}
+
+
+/*Esercizio 13*/
+
+.ex-13-top-white{
+    animation: topleft2 4s linear infinite;
+}
+
+@keyframes topleft2{
+
+    0%,100%{
+        left: 10%;
+        top: -10px;
+    }
+    30%{
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45%{
+        top: 100%;
+        left: calc(100% - 30px);
     }
     75%{
-        right: 45%;
+        left: -15px;
+        top: 100%;
     }
-    100%{
-        right: 60%;
+    90%{
+        top: -10px;
+        left: -15px;
     }
 
+}
+.ex-13-bottom-white{
+    animation: botleft2 4s linear infinite;
+}
+
+@keyframes botleft2{
+
+    0%, 100%{
+        right: 20%;
+        bottom: -10px;
+    }
+    30%{
+        right: calc(100% - 50px);
+        bottom: -10px;
+    }
+    45%{
+        bottom: 100%;
+        right: calc(100% - 50px);
+    }
+    75%{
+        bottom:100%;
+        right: -20px;
+    }
+    90%{
+        right: -20px;
+        bottom: -10px;
+    }
 }
 
