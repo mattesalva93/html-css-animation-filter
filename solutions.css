@@ -95,7 +95,7 @@
 /*Esercizio 9*/
 
 .ex-9-img{
-    transition: all 0.2s;
+    transition: all 2s;
 }
 
 .ex-9-img:hover{
@@ -107,6 +107,27 @@
 
 /*Esercizio 10*/
 
+.ex-10-icon.fas.fa-circle-notch{
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate{
+    
+
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
 
 
     
