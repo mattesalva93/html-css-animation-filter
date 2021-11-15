@@ -81,6 +81,20 @@
     filter: grayscale(100%);
 }
 
+/*Esercizio 8*/
+
+.ex-8-img{
+    transition: all 2s linear;
+}
+
+.ex-8-img:hover{
+    border-radius: 25%;
+    filter: blur(5px) grayscale(100%);
+}
+
+/*Esercizio 9*/
+
+
 
 
 
