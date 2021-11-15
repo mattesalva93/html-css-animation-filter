@@ -150,9 +150,56 @@
 
 }
 
+/*Esercizio 12*/
+
+.ex-12-top-white{
+    animation: topleft 4s linear infinite;
+}
+
+@keyframes topleft{
 
 
+    0%{
+        left: 0;
+    }
+    25%{
+        left: 15%;
+    }
+    50%{
+        left: 30%;
+    }
+    75%{
+        left: 45%;
+    }
+    100%{
+        left: 60%;
+    }
 
 
+}
 
+.ex-12-bottom-white{
+    animation: botleft 4s linear infinite;
+}
+
+@keyframes botleft{
+
+
+    0%{
+        right: 0;
+    }
+    25%{
+        right: 15%;
+    }
+    50%{
+        right: 30%;
+    }
+    75%{
+        right: 45%;
+    }
+    100%{
+        right: 60%;
+    }
+
+}
 
