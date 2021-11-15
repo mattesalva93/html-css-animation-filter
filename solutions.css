@@ -94,7 +94,18 @@
 
 /*Esercizio 9*/
 
+.ex-9-img{
+    transition: all 0.2s;
+}
 
+.ex-9-img:hover{
+    border-radius: 25%;
+    filter: brightness(200%) drop-shadow(10px 10px 5px lightyellow);
+    width: 1000px;
+    height: auto;
+}
+
+/*Esercizio 10*/
 
 
 
