@@ -25,3 +25,34 @@
 .ex-3-square:hover{
     border-radius: 50%;
 }
+
+/*Esercizio 4*/
+
+.ex-4-square{
+    animation: disappear 4s linear forwards;
+}
+
+@keyframes disappear{
+    
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.75; 
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.25; 
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+
+
+
+
+    
