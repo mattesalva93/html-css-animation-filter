@@ -66,6 +66,11 @@
     height: 25px;
 }
 
+/*Esercizio 6*/
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
 
 
     
