@@ -52,6 +52,19 @@
     }
 }
 
+/*Esercizio 5*/
+
+.ex-5-square{
+    transition: all 1s;
+}
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+.ex-5-square:active{
+    width: 25px;
+    height: 25px;
+}
 
 
 
